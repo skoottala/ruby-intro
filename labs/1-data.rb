@@ -4,6 +4,14 @@
 
 # EXERCISE
 # Play craps (roll two dice)
+dice1= rand(1..6)
+dice2= rand(1..6)
+puts dice1
+puts dice2
+
+totaldice= dice1+ dice2
+puts "The total is: #{totaldice}"
+
 # When executed, this program should print out two random
 # numbers, one on each line, simulating the roll of two
 # dice. Set two variables, with names that make sense,
